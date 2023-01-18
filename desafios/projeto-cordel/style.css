@@ -45,29 +45,30 @@ header a:hover{
 }
 
 section{
-    font-size: 5vw;
+    font-size: 7vw;
     font-family: "Caveat", Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
     max-width: 1000px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 section > p{
-    line-height: 8vw;
+    line-height: 11vw;
 }
 
 section#flores{
     background-image: url(imagens/flores.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 220vw;
+    background-size: 300vw;
     border-radius: 10px;
+    margin-left: 30px;
 }
 
 #flores > p{
     background-color: rgba(0, 0, 0, 0.411);
     border-radius: 5px;
-    width: 50vw;
+    width: 70vw;
     color: white;
     padding: 10px;
 }
@@ -76,18 +77,20 @@ section#livros{
     background-image: url(imagens/livros.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 220vw;
+    background-size: 300vw;
     background-position: center center;
     border-radius: 10px;
+    margin-left: 30px;
     
 }
 
 #livros > p{
     background-color: rgba(0, 0, 0, 0.411);
     border-radius: 5px;
-    width: 50vw;
+    width: 70vw;
     color: white;
     padding: 10px;
+    margin-right: 50px;
 }
 footer{
     background-color: black;
