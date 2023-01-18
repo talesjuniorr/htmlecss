@@ -36,6 +36,12 @@ h1{
 header a{
     text-decoration: none;
     color: white;
+    transition-duration: 300ms;
+}
+
+header a:hover{
+    color: #d4d4d4;
+    transition-duration: 300ms;
 }
 
 section{
@@ -44,6 +50,10 @@ section{
     padding: 20px;
     max-width: 1000px;
     margin-left: 50px;
+}
+
+section > p{
+    line-height: 8vw;
 }
 
 section#flores{
@@ -59,6 +69,7 @@ section#flores{
     border-radius: 5px;
     width: 50vw;
     color: white;
+    padding: 10px;
 }
 
 section#livros{
@@ -76,6 +87,7 @@ section#livros{
     border-radius: 5px;
     width: 50vw;
     color: white;
+    padding: 10px;
 }
 footer{
     background-color: black;
@@ -83,11 +95,22 @@ footer{
     padding: 1px;
     text-align: center;
     font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
    
+}
+
+footer > p{
+    margin: 0;;
 }
 
 footer a{
     color: white;
     text-decoration: none;
     font-weight: 600;
+    transition-duration: 300ms;
+}
+
+footer a:hover{
+    color: #d4d4d4 ;
+    transition-duration: 300ms;
 }
