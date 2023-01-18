@@ -1,0 +1,18 @@
+@charset "UTF8";
+body{
+    background-color: rgb(39, 39, 39);
+font-family: georgia;}
+
+h1{
+    color: aliceblue;}
+
+    h2{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;}
+
+a{
+    color: rgb(0, 136, 255);
+}

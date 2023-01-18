@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background-color: #012030;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: #DAFDBA;
+    background-color: #012030;
+
+}
+
+.textos{ text-align: left;
+    color: #012030;
+
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+main{
+    background-color: #9AEBA3;
+    color: black;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 8px 8px #000000;}
