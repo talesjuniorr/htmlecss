@@ -13,6 +13,11 @@
     src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 }
     
+body{
+    margin: 0px;
+    height: 99%;
+}
+
 header{
     color: white;
     background: black;
@@ -21,9 +26,11 @@ header{
     font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header > h1{
+h1{
     font-family: ArchivoBlack, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.5em;
+    font-size: 6vw;
+    margin: 20px;
+    
 }
 
 header a{
@@ -32,24 +39,44 @@ header a{
 }
 
 section{
-    font-size: 2em;
+    font-size: 5vw;
     font-family: "Caveat", Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
-    max-width: 400px;
+    max-width: 1000px;
+    margin-left: 50px;
 }
 
-#flores{
+section#flores{
     background-image: url(imagens/flores.jpg);
-    background-size: 1000px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 220vw;
+    border-radius: 10px;
 }
 
-
-body{
-    margin: 0px;
+#flores > p{
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
+    width: 50vw;
+    color: white;
 }
 
+section#livros{
+    background-image: url(imagens/livros.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 220vw;
+    background-position: center center;
+    border-radius: 10px;
+    
+}
+
+#livros > p{
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
+    width: 50vw;
+    color: white;
+}
 footer{
     background-color: black;
     color: white;
