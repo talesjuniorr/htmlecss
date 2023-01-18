@@ -32,15 +32,22 @@ header a{
 }
 
 section{
-    border: 2px solid black;
     font-size: 2em;
     font-family: "Caveat", Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
+    max-width: 400px;
 }
+
+#flores{
+    background-image: url(imagens/flores.jpg);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 
 body{
     margin: 0px;
-    max-width: 700px ;
 }
 
 footer{
