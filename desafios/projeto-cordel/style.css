@@ -38,6 +38,7 @@ header a{
     text-decoration: none;
     color: white;
     transition-duration: 300ms;
+    
 }
 
 header a:hover{
