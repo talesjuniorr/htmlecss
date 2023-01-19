@@ -65,6 +65,7 @@ section#flores{
     background-size: 300vw;
     border-radius: 10px;
     margin-left: 30px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.605);
 }
 
 #flores > p{
@@ -83,6 +84,7 @@ section#livros{
     background-position: center center;
     border-radius: 10px;
     margin-left: 30px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.605);
     
 }
 
