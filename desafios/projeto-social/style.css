@@ -39,14 +39,20 @@ iframe#tela{
 section#social-media{
     margin: 0;
     text-align: right;
+    display: block;
+    margin-right: 10px;
 }
-section#social-media, img{
+section#social-media > a > img{
     width: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px black;
+    transition-duration: 300ms;
 }
-section#social-media, img:hover{
+section#social-media > a > img:hover{
     border: 2px solid white;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+    
 }
 
